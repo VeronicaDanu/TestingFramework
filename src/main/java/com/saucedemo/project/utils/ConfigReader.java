@@ -16,4 +16,7 @@ public interface ConfigReader extends Config {
 
     @Key("baseUrl")
     String getBaseUrl();
+
+    @Key("isHeadless")
+    boolean isHeadless();
 }
